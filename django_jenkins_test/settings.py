@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
 
     'my_test_app',
+    'coverage',
     'django_jenkins',
 )
 
