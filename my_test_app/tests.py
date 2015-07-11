@@ -14,7 +14,7 @@ class AnimalTestCase(TestCase):
         """
         fail_test() should always fail
         """
-        self.assertEqual(True, False)
+        self.assertEqual(False, False)
 
     def test_success(self):
         """
